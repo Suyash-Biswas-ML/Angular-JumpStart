@@ -15,8 +15,7 @@ const apm = initApm({
   // Set custom APM Server URL (default: http://localhost:8200)
   serverUrl: 'https://add-component-test-sf-lb-8fd0571029bb08f5.elb.us-west-2.amazonaws.com:8200',
   distributedTracing: false,
-  breakdownMetrics: true,
-  session: true
+  breakdownMetrics: true
 })
 
 apm.addLabels({ '_tag_appName': apmData.appName });
