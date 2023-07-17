@@ -4,7 +4,7 @@ import { init as initApm } from '@elastic/apm-rum'
 const apmData = {
   serviceName: 'RUM-UI', // specify service name for RUM
   projectName: 'RUM-Proj', // provide the snappyflow project name from step 4
-  appName: 'RUM-demo', // provide the snappyflow application name from step 4
+  appName: 'RUM-grouping-test', // provide the snappyflow application name from step 4
 };
 
 const apm = initApm({
